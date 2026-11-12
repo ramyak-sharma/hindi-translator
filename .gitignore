@@ -1,0 +1,15 @@
+# secrets
+keys.env
+keys.env.bak
+*.env
+!keys.env.example
+# per-book data: caches, glossaries, translated output
+work/
+output/
+state.json
+config.json
+*.epub
+# local
+.venv/
+__pycache__/
+.DS_Store
